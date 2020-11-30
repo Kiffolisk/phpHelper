@@ -1,9 +1,9 @@
 <?php
 	function GetPost($typeofthing, $thingto){
 		if ($typeofthing == 'GET'){
-			return $_GET[$thingto]
+			return $_GET[$thingto];
 		}elseif ($typeofthing == 'POST'){
-			return $_POST[$thingto]
-		}
-	}
+			return $_POST[$thingto];
+		};
+	};
 ?>
